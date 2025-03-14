@@ -3145,6 +3145,7 @@ input, select, textarea {
 
 		.wrapper.style4 {
 			background-color: transparent;
+			/* text-align: left !important; */
 		}
 
 		.wrapper.style5 {
@@ -3356,7 +3357,8 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		/* Change this later, sidebar color */
+		background: #000000;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3790,7 +3792,7 @@ input, select, textarea {
 
 			#cta .inner {
 				display: block;
-				text-align: center;
+				text-align: left;
 			}
 
 				#cta .inner header {
