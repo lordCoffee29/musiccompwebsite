@@ -87,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2e3842;
+		background: #171717;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -4188,5 +4188,5 @@ body.is-mobile #phantoms > header {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-color: #171717;
 	}
