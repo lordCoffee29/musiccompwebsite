@@ -4076,6 +4076,118 @@ body.is-mobile #phantoms > header {
 	background-attachment: scroll;
 }
 
+/* Film */
+
+#film > header {
+	padding: 12em 0 10em 0 ;
+	/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/MP_banner.png");
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/MP_banner.png");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/MP_banner.png");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/MP_banner.png"); */
+	background: #171717;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+#film h2 {
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+	-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+	-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+	transition: transform 0.5s ease, opacity 0.5s ease;
+	display: inline-block;
+	font-size: 1.75em;
+	opacity: 1;
+	padding: 0.35em 1em;
+	position: relative;
+	z-index: 1;
+}
+
+	#film h2:before, #film h2:after {
+		-moz-transition: width 0.85s ease;
+		-webkit-transition: width 0.85s ease;
+		-ms-transition: width 0.85s ease;
+		transition: width 0.85s ease;
+		-moz-transition-delay: 0.25s;
+		-webkit-transition-delay: 0.25s;
+		-ms-transition-delay: 0.25s;
+		transition-delay: 0.25s;
+		background: #fff;
+		content: '';
+		display: block;
+		height: 2px;
+		position: absolute;
+		width: 100%;
+	}
+
+	#film h2:before {
+		top: 0;
+		left: 0;
+	}
+
+	#film h2:after {
+		bottom: 0;
+		right: 0;
+	}
+
+	#film > header p {
+		color: inherit;
+		letter-spacing: 0.225em;
+		text-transform: uppercase;
+		top: 0;
+	}
+
+		#film > header p a {
+			color: inherit;
+		}
+
+	@media screen and (max-width: 1680px) {
+
+		#film > header {
+			padding: 10em 0 8em 0 ;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#film > header {
+			padding: 8em 3em 6em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		#film > header {
+			padding: 10em 3em 8em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#film > header {
+			padding: 5em 3em 3em 3em ;
+		}
+
+			#film > header h2 {
+				font-size: 1.25em;
+				margin: 0 0 1em 0;
+			}
+
+	}
+
+body.is-mobile #film > header {
+	background-attachment: scroll;
+}
+
 /* Footer */
 
 	#footer {

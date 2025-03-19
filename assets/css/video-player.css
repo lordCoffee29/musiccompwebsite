@@ -1,0 +1,63 @@
+/* Video player container */
+.video-player {
+    width: 100%;
+    color: rgb(48, 56, 65);
+    padding: 10px 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+/* Title Styling */
+.video-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Video container */
+.video-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* YouTube iframe styling */
+.video-container iframe {
+    width: 100%;
+    max-width: 600px; /* Adjust size as needed */
+    height: 340px; /* 16:9 aspect ratio */
+    border-radius: 8px;
+    border: none;
+}
+
+/* Controls container */
+.video-controls {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Button styles */
+.video-btn {
+    background: none !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 22px;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.video-btn:hover {
+    color: #1db954;
+}
