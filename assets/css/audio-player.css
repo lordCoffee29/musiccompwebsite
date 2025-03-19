@@ -1,10 +1,8 @@
 /* Style the audio player container */
 .audio-player {
     width: 100%;
-    /* background: #22222200; */
     color: rgb(48, 56, 65);
     padding: 10px 0;
-    /* border-radius: 12px; */
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -33,9 +31,9 @@
 .audio-player .control-btn,
 .audio-player .volume-btn {
     background: none !important;
-    border: none !important; /* Completely removes any inherited border */
-    outline: none !important; /* Removes any outline effect */
-    box-shadow: none !important; /* Removes any shadow effect */
+    border: none !important;
+    outline: none !important; 
+    box-shadow: none !important; 
     font-size: 22px;
     cursor: pointer;
     color: black;
